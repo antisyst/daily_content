@@ -10,7 +10,7 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handlePasswordSubmit = (password: string) => {
-    const isCorrect = password === '1234'; 
+    const isCorrect = password === '2007'; 
 
     setIsLoading(true);
 
